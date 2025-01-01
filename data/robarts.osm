@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6">
+ <bounds minlat="43.66290" minlon="-79.39801" maxlat="43.66776" maxlon="-79.40402"/>
+ <node id="1" visible="true" uid="0" lat="43.6666683" lon="-79.4038033">,
+ </node>
+  <node id="2" visible="true" uid="1" lat="43.6655511" lon="-79.4028821">, 
+ </node>
+  <node id="3" visible="true" uid="2" lat="43.6646692" lon="-79.4026201">, 
+ </node>
+  <node id="4" visible="true" uid="2" lat="43.6638874" lon="-79.4023100">,
+ </node>
+  <node id="5" visible="true" uid="2" lat="43.6630941" lon="-79.4019954">,
+ </node>
+  <node id="6" visible="true" uid="2" lat="43.6671663" lon="-79.4015101">,
+ </node>
+   <node id="7" visible="true" uid="2" lat="43.6659399" lon="-79.4010187">,
+ </node>
+    <node id="8" visible="true" uid="2" lat="43.6650762" lon="-79.4006725">,
+ </node>
+    <node id="9" visible="true" uid="2" lat="43.6642906" lon="-79.4003578">,
+ </node>
+     <node id="10" visible="true" uid="2" lat="43.6634971" lon="-79.4000445">,
+ </node>
+   <node id="11" visible="true" uid="2" lat="43.6675273" lon="-79.3998256">,
+ </node>
+   <node id="12" visible="true" uid="2" lat="43.6654314" lon="-79.3989730">,
+ </node>
+   <node id="13" visible="true" uid="2" lat="43.6640762" lon="-79.3984403">,
+ </node> 
+
+ <way id="01" visible="true" uid="01">
+  <nd ref="1"/>
+  <nd ref="2"/>
+  <nd ref="3"/>
+  <nd ref="4"/>
+  <nd ref="5"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ 
+ <way id="02" visible="true" uid="02">
+  <nd ref="6"/>
+  <nd ref="7"/>
+  <nd ref="8"/>
+  <nd ref="9"/>
+  <nd ref="10"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ 
+  <way id="03" visible="true" uid="02">
+  <nd ref="11"/>
+  <nd ref="12"/>
+  <nd ref="13"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ 
+ <way id="04" visible="true" uid="02">
+  <nd ref="1"/>
+  <nd ref="6"/>
+  <nd ref="11"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ 
+  <way id="05" visible="true" uid="02">
+  <nd ref="2"/>
+  <nd ref="7"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ 
+<way id="06" visible="true" uid="02">
+  <nd ref="3"/>
+  <nd ref="8"/>
+  <nd ref="12"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ 
+ <way id="07" visible="true" uid="02">
+  <nd ref="4"/>
+  <nd ref="9"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ 
+ <way id="08" visible="true" uid="02">
+  <nd ref="5"/>
+  <nd ref="10"/>
+  <nd ref="13"/>
+  <tag k="highway" v="footway"/>
+ </way> 
+
+</osm>
